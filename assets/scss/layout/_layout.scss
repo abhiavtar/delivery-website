@@ -12,10 +12,10 @@
 
 .svg{
     &__color{
-        fill: var(first-color);
+        fill: var(--first-color);
     }
     &__blob{
-        fill: var(first-color);
+        fill: var(--first-color-light);
     }
     &__img{
         width: 300px;
