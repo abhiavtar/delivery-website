@@ -1,1 +1,9 @@
 /*=============== SECURITY ===============*/
+.security{
+    &__container{
+        row-gap: 2.5rem;
+    }
+    &__description{
+        text-align: center;
+    }
+}

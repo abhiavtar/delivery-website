@@ -199,7 +199,21 @@ img {
   display: none;
 }
 
+.about__container {
+  gap: 2.5rem;
+}
+.about__data {
+  text-align: center;
+}
+
 /*=============== SECURITY ===============*/
+.security__container {
+  row-gap: 2.5rem;
+}
+.security__description {
+  text-align: center;
+}
+
 /*=============== SERVICES ===============*/
 .services__container {
   padding-top: 1rem;
