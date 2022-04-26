@@ -103,3 +103,37 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+var wantToSeeMirzzapur = confirm("do you want to see mirzapur?");
+
+if (wantToSeeMirzzapur) {
+  // var wantToSeeMirzzapur = confirm("do you want to see mirzapur?");
+  var userAge = prompt("what's your age?");
+  if (userAge >= 18) {
+    alert("ok see mirzapur");
+  } else {
+    alert("your age is not suitable");
+  }
+} else {
+  var wantToSeeKF = confirm("do you want to see Kashir Files?");
+  var userAge = prompt("what's your age?");
+
+  if (userAge >= 10 && userAge < 18) {
+    alert("ok see kashmir Files");
+  } else {
+    alert("your age is not suitable");
+  }
+
+  if (wantToSeeSpiderMAn) {
+    // alert("ok see kf");
+    var wantToSeeSpiderMan = confirm("do you want to see spiderman?");
+    var userAge = prompt("what's your age?");
+    if (userAge >= 0 && userAge < 10) {
+      alert("ok see Spider Man");
+    } else {
+      alert("your age is not suitable");
+    }
+  } else {
+    alert("sad to know that you are not watching any movie");
+  }
+}
